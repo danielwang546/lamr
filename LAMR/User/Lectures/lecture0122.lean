@@ -61,6 +61,7 @@ There are:
 #check "hello" ++ " world"
 #check fun x => x + 1
 
+
 def four : Nat := 2 + 2
 def four' := 2 + 2
 def isOne (x : Nat) : Bool := if x = 1 then true else false
@@ -128,7 +129,6 @@ end
 
 section
 open List
-
 #eval add_nums <| range 10
 
 #eval map (fun x => x + 7) (range 10)
@@ -137,7 +137,6 @@ open List
 #eval (range 10).map (. + 7)
 
 #eval foldl (fun y => . + (3 * y)) 0 (range 10)
-
 end
 
 namespace hidden
