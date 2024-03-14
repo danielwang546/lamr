@@ -281,3 +281,5 @@ TSWLatexianTemp*
 *.lpz
 
 .DS_Store
+LAMR/bin/temp.drat
+LAMR/bin/temp.cnf
