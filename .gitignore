@@ -283,3 +283,6 @@ TSWLatexianTemp*
 .DS_Store
 LAMR/bin/temp.drat
 LAMR/bin/temp.cnf
+LAMR/bin/temp.smt
+LAMR/bin/temp.drat
+LAMR/bin/temp.cnf
